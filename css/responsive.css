@@ -1,0 +1,276 @@
+@media (min-width: 1200px) {
+  .container { max-width: 1140px; }
+}
+
+@media screen and (max-width: 850px) {
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: var(--size-50);
+    width: 20%;
+    border-radius: 20px;
+    margin: var(--size-16);
+    padding: var(--size-16);
+    z-index: 150;
+    text-align: right;
+    box-shadow: 0px 0px var(--size-20) rgba(52, 49, 75, 0.1);
+    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.70));
+  }
+
+  [aria-expanded="true"] ~ ul li a {
+    margin-right: var(--size-20);
+    color: var(--font-color-dark);
+  }
+
+  a.btn.nav-button {
+    padding: 5px;
+    margin-top: var(--size-10);
+  }
+
+  .learn-responsive {
+    display: block;
+    margin: var(--size-20) var(--size-10);
+  }
+
+  .pricing-details-cards {
+    margin-top: var(--size-100);
+  }
+
+  .hire-us-container {
+    flex-wrap: wrap;
+  }
+
+  .hire-us-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4.688rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .company-footer {
+    margin: var(--size-20)
+  }
+
+  .features-footer, 
+  .documentation-footer, 
+  .resources-footer {
+    margin: var(--size-30);
+    flex-basis: 5rem;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hero-container {
+    flex-wrap: wrap;
+  }
+
+  .hero-icons {
+    margin: var(--size-100) 0;
+  }
+
+  .key-benefits {
+    margin-top: 18.75rem;
+  }
+
+  .get-started-wrapper {
+    flex-direction: column;
+  }
+
+  .get-started-text {
+    text-align: center;
+    margin: var(--size-20) auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .get-started-img {
+    margin: var(--size-50) 7px;
+    align-self: center;
+  }
+
+  .video-container {
+    height: 20rem;
+  }
+
+  .price-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .elements-wrapper {
+    flex-direction: column;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .line hr {
+    height: var(--size-50);
+    width: 5px;
+  }
+
+  .dot-line-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pricing-details-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .asana-logo {
+    right: 0.7rem;
+    top: -5rem;
+  }
+
+  .weave-logo {
+    top: 8.5em;
+  }
+
+  .calendar-logo {
+    right: 0.7rem;
+  }
+  
+  .get-started-img img {
+    width: 31.25rem;
+    height: 18.75rem;
+  }
+
+  .picture-wrapper img {
+    max-width: 20rem;
+  }
+
+  .image2 {
+    height: 13rem;
+    top: 10.625rem;
+    left: -7.5rem;
+  }
+
+  .featured-price-card {
+    width: 20rem;
+  }
+
+  .hire-us-form {
+    width: 20rem;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-rows {
+    flex-direction: column;
+  }
+
+  .input {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .weave-logo {
+    right: 4rem;
+  }
+
+  .atl-logo {
+    left: 10rem;
+  }
+  
+  .get-started-img img {
+    width: 21.875rem;
+    height: 19rem;
+  }
+
+  .picture-wrapper {
+    height: 20rem;
+  }
+
+  .picture-wrapper img {
+    max-width: 16.5rem;
+    height: 18rem;
+  }
+
+  .image2 {
+    top: var(--size-30);
+    left: -4.25rem;
+  }
+
+  .featured-price-card {
+    width: 15rem;
+    height: 30rem;
+  }
+
+  .testimonials-wrapper {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .googlead-logo {
+    left: 6.5rem;
+  }
+  
+  .get-started-img img {
+    width: 15rem;
+    height: 14rem;
+  }
+
+  .detail-card {
+    width: 10rem;
+    height: 13rem;
+  }
+
+  .detail-card:nth-child(2) {
+    margin-top: 4rem;
+  }
+
+  .hire-us-form {
+    width: 17rem;
+  }
+
+  .input {
+    width: 13rem;
+  }
+}
