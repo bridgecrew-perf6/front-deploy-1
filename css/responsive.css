@@ -81,8 +81,7 @@
   .features-footer, 
   .documentation-footer, 
   .resources-footer {
-    margin: var(--size-30);
-    flex-basis: 5rem;
+    margin: var(--size-20);
   }
 
   .video-container {
